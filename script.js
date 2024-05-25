@@ -40,3 +40,15 @@ function seemore() {
     button.innerHTML = "See More..";
   }
 }
+function seemore1() {
+  var text = document.getElementById("commands");
+  var button = document.getElementById("more");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+    button.innerHTML = "See Less";
+  }
+  else {
+    text.style.display = "none";
+    button.innerHTML = "See More..";
+  }
+}
