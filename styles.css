@@ -78,6 +78,9 @@ section {
 #commands {
   display: none;
 }
+#commands1 {
+  display: none;
+}
 .instt{
   color: red;
 }
@@ -93,6 +96,15 @@ section {
   align-items: center;
 }
 #more {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  color: blue;
+  font-size: 14px;
+  font-weight: bold;
+}
+#more1 {
   position: absolute;
   right: 0;
   bottom: 0;
